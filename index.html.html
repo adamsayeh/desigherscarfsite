@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Scarfs Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .scarf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .scarf-item {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .scarf-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .scarf-item h3 {
+            margin: 10px 0;
+        }
+        .scarf-item p {
+            padding: 0 10px 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Designer Scarfs Collection</h1>
+        <p>Elegant, handcrafted scarfs for every occasion.</p>
+    </header>
+    
+    <div class="container">
+        <h2>Our Featured Scarfs</h2>
+        <div class="scarf-grid">
+            <div class="scarf-item">
+                <img src="https://images.unsplash.com/photo-1601762603332-fd61e28b698a?w=400&h=200&fit=crop" alt="Silk Scarf">
+                <h3>Silk Elegance</h3>
+                <p>A luxurious silk scarf in vibrant colors. $120</p>
+            </div>
+            <div class="scarf-item">
+                <img src="https://images.unsplash.com/photo-1583845112203-29e0c3aba608?w=400&h=200&fit=crop" alt="Wool Scarf">
+                <h3>Wool Warmth</h3>
+                <p>Cozy wool scarf perfect for winter. $85</p>
+            </div>
+            <div class="scarf-item">
+                <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=200&fit=crop" alt="Cotton Scarf">
+                <h3>Cotton Breeze</h3>
+                <p>Light and breathable cotton design. $60</p>
+            </div>
+            <div class="scarf-item">
+                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=200&fit=crop" alt="Designer Scarf">
+                <h3>Artisan Pattern</h3>
+                <p>Unique patterned scarf by local artisans. $95</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Designer Scarfs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
